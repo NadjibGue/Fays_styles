@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+    <head>
     <!-- Base Configuration -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,7 +17,7 @@
     <!-- Open Graph (Facebook, LinkedIn) -->
     <meta property="og:title" content="Fays-Style | Barber et Coiffeur à Cugnaux" />
     <meta property="og:description" content="Fays-Style : votre coiffeur homme et barber à Cugnaux. Offrez-vous une coupe tendance et un service de qualité à petit prix." />
-    <meta property="og:image" content="https://barbier.faysstyle.ct.ws/img/FaysStyle.png" />
+    <meta property="og:image" content="https://barbier.faysstyle.ct.ws/img/FaysStyle.webp" />
     <meta property="og:url" content="https://barbier.faysstyle.ct.ws/" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_FR" />
@@ -26,11 +26,11 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Fays-Style | Barber et Coiffeur à Cugnaux" />
     <meta name="twitter:description" content="Salon de coiffure homme et barber à Cugnaux. Qualité et tendance à partir de 10 euros. Réservez dès aujourd'hui !" />
-    <meta name="twitter:image" content="https://barbier.faysstyle.ct.ws/img/FaysStyle.png" />
+    <meta name="twitter:image" content="https://barbier.faysstyle.ct.ws/img/FaysStyle.webp" />
 
     <!-- Favicon and Apple Icons -->
-    <link rel="icon" href="./img/FaysStyle.png" type="image/png" />
-    <link rel="apple-touch-icon" href="./img/FaysStyle.png" />
+    <link rel="icon" href="./img/FaysStyle.webp" type="image/png" />
+    <link rel="apple-touch-icon" href="./img/FaysStyle.webp" />
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Sitemap -->
@@ -43,13 +43,13 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
 
     <!-- CSS Libraries -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8×4CGsO3HXwtl7Aw4HoXbE+5Rm+jKym2TJ+T9sO3po19pJH+r3hYWZK2+noK" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha384-PoVtXtuk8×6PiKvX9vYl2JLVR37jFYyprWJ/4+OUuj2sSQYwY+e73e3W+f39Xjg" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css" />
-    <meta name="google-site-verification" content="naRlZAKZeUIiiAfseQZV6X60itw3Gev-_rqRUX9nv9c" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha384-PoVtXtuk8x6PiKvX9vYl2JLVR37jFYyprWJ/4+OUuj2sSQYwY+e73e3W+f39Xjg" crossorigin="anonymous" media="print" onload="this.media='all'" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8×4CGsO3HXwtl7Aw4HoXbE+5Rm+jKym2TJ+T9sO3po19pJH+r3hYWZK2+noK" crossorigin="anonymous" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" /><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" /></noscript>
+
     <!-- Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
     <script>
@@ -68,7 +68,7 @@
         "@type": "HairSalon",
         "name": "Fays-Style",
         "description": "Fays-Style, salon de coiffure et barbier à Cugnaux. Spécialistes des coupes modernes pour hommes, tailles de barbe et rasages traditionnels.",
-        "image": "https://barbier.faysstyle.ct.ws/img/FaysStyle.png",
+        "image": "https://barbier.faysstyle.ct.ws/img/FaysStyle.webp",
         "@id": "https://barbier.faysstyle.ct.ws",
         "url": "https://barbier.faysstyle.ct.ws",
         "telephone": "+33751274521",
@@ -131,6 +131,9 @@
         ]
       }
     </script>
+
+    <!-- Content-Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https:; script-src 'self' https://code.jquery.com https://stackpath.bootstrapcdn.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;" />
   </head>
   
   <body>
