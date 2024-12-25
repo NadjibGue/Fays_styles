@@ -8,11 +8,12 @@
     <meta name="theme-color" content="#000000" />
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
 
-    <!-- SEO : Mots-clés et Description -->
-    <meta name="keywords" content="coiffeur Cugnaux, barbier Cugnaux, salon de coiffure homme, meilleur coiffeur Cugnaux, barber shop Cugnaux, coiffeur pas cher Cugnaux, coupe homme, rasage traditionnel, taille de barbe, dégradé à blanc, coiffure tendance, coiffeur rapide, barber près de Toulouse" />
-    <meta name="description" content="Fays-Style, salon de coiffure homme et barbier à Cugnaux. Coupes modernes, rasages traditionnels, dégradés et tailles de barbe à partir de 10 euros. Prenez rendez-vous dès maintenant !" />
-    <meta name="author" content="Fays-Style" />
-    <link rel="canonical" href="https://barbier.faysstyle.ct.ws/" />
+  <!-- SEO -->
+  <meta name="keywords" content="coiffeur Cugnaux, barbier Cugnaux, salon de coiffure homme, meilleur coiffeur Cugnaux, barber shop Cugnaux, coiffeur pas cher Cugnaux, coupe homme, rasage traditionnel, taille de barbe, dégradé à blanc, coiffure tendance, coiffeur rapide, barber près de Toulouse" />
+  <meta name="description" content="Fays-Style, salon de coiffure homme et barbier à Cugnaux. Coupes modernes, rasages traditionnels, dégradés et tailles de barbe à partir de 10 euros. Prenez rendez-vous dès maintenant !" />
+  <meta name="author" content="Fays-Style" />
+  <title>Fays-Style | Coiffeur et barbier à Cugnaux</title>
+  <link rel="canonical" href="https://barbier.faysstyle.ct.ws/" />
 
     <!-- Open Graph (Facebook, LinkedIn) -->
     <meta property="og:title" content="Fays-Style | Barber et Coiffeur à Cugnaux" />
@@ -51,15 +52,15 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'UA-XXXXX-Y');
-    </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXX-Y');
+  </script>
 
     <!-- JSON-LD -->
     <script type="application/ld+json">
@@ -132,8 +133,8 @@
       }
     </script>
     <!-- Content-Security Policy -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; script-src 'self' https://code.jquery.com https://stackpath.bootstrapcdn.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com;" />
-  </head>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; script-src 'self' https://code.jquery.com https://stackpath.bootstrapcdn.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; frame-src 'self' https://www.google.com; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com;">
+</head>
   
   <body>
     <!-- Top Bar Start -->
@@ -166,33 +167,23 @@
     <!-- Top Bar End -->
 
     <!-- Début de la Barre de Navigation -->
-    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
-    <div class="container-fluid">
-    <a href="index.html" class="navbar-brand"><img src="./img/FaysStyle.png" alt="" srcset=""> Fays-<span>style</span></a>
-    
-    <button
-      type="button"
-      class="navbar-toggler"
-      data-toggle="collapse"
-      data-target="#navbarCollapse"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div
-      class="collapse navbar-collapse justify-content-between"
-      id="navbarCollapse"
-    >
-      <div class="navbar-nav ml-auto">
-        <a href="/" class="nav-item nav-link active">Accueil</a>
-        <a href="#about" class="nav-item nav-link">À propos</a>
-        <a href="#service" class="nav-item nav-link">Services</a>
-        <a href="#price" class="nav-item nav-link">Tarifs</a>
-        <a href="portfolio.html" class="nav-item nav-link">Galerie</a>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand" aria-label="Retour à l'accueil"><img src="./img/FaysStyle.png" alt="Fays-Style" /> Fays-<span>style</span></a>
+        <button type="button" class="navbar-toggler" aria-label="Afficher le menu" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="/" class="nav-link active">Accueil</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">À propos</a></li>
+            <li class="nav-item"><a href="#service" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#price" class="nav-link">Tarifs</a></li>
+            <li class="nav-item"><a href="portfolio.html" class="nav-link">Galerie</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
+    </nav>
 <!-- Fin de la Barre de Navigation -->
 
 
@@ -402,42 +393,24 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="footer-contact">
-                  <h2>Salon Address</h2>
-                  <p>
-                    <i class="fa fa-map-marker-alt"></i>32 Av. de Toulouse, 31270 Cugnaux
-                  </p>
-                  <p><i class="fa fa-phone-alt"></i>07 51 27 45 21
-                  </p>
-                  
-                  <div class="footer-social">                    
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.snapchat.com/add/tounsii31?share_id=pPR2wpPZkxg&locale=fr-FR"><i class="fab fa-snapchat"></i></a>
-                  </div>
-                </div>
+            <div class="footer-contact">
+              <h2>Salon Address</h2>
+              <p><i class="fa fa-map-marker-alt"></i> 32 Av. de Toulouse, 31270 Cugnaux</p>
+              <p><i class="fa fa-phone-alt"></i> 07 51 27 45 21</p>
+              <div class="footer-social">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.snapchat.com/add/tounsii31" target="_blank" aria-label="Snapchat"><i class="fab fa-snapchat"></i></a>
               </div>
-              
             </div>
           </div>
           <div class="col-lg-5">
-            <div class="footer-newsletter">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5784.512068389088!2d1.3432008767286252!3d43.53870455982776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aeb73fec0122bb%3A0x2971bfcf8a0ea7ad!2sFAYS-STYLE%20CUGNAUX!5e0!3m2!1sfr!2sfr!4v1732270607722!5m2!1sfr!2sfr"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
+            <iframe src="https://www.google.com/maps/embed?...=" title="Localisation de Fays-Style" width="100%" height="400" style="border:0;" allowfullscreen></iframe>
           </div>
         </div>
       </div>
       <div class="container copyright">
-        <div class="row">
-          <div class="col-md-6">
-            <p>&copy; <a href="#">Fays-style</a>, All Right Reserved.</p>
-          </div>
-          <div class="col-md-6">
-            <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
-          </div>
-        </div>
+        <p>&copy; <a href="#">Fays-style</a>, Tous droits réservés.</p>
+        <p>Designed by <a href="https://htmlcodex.com">HTML Codex</a></p>
       </div>
     </div>
     <!-- Footer End -->
