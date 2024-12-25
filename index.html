@@ -145,10 +145,12 @@
  <meta http-equiv="Content-Security-Policy" content="
     default-src 'self'; 
     img-src 'self' https: data:; 
-    script-src 'self' https://code.jquery.com https://stackpath.bootstrapcdn.com https://www.googletagmanager.com https://cdn.consentmanager.net; 
-    style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com https://cdn.consentmanager.net; 
-    frame-src 'self' https://www.google.com https://cdn.consentmanager.net; 
-    font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com;">
+    script-src 'self' https://code.jquery.com https://stackpath.bootstrapcdn.com https://www.googletagmanager.com; 
+    style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; 
+    frame-src 'self' https://www.google.com; 
+    font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; 
+    connect-src 'self' https://region1.google-analytics.com https://www.google-analytics.com;">
+
 </head>
   
   <body>
