@@ -123,20 +123,58 @@
 
     <!-- Content-Security Policy -->
     <meta http-equiv="Content-Security-Policy" content="
-        default-src 'self'; 
-        script-src 'self' https://code.jquery.com https://stackpath.bootstrapcdn.com https://www.googletagmanager.com https://cdn.consentmanager.net https://d.delivery.consentmanager.net 'unsafe-inline' 'unsafe-eval'; 
-        style-src 'self' https://cdnjs.cloudflare.com https://fonts.googleapis.com https://cdn.consentmanager.net 'unsafe-inline'; 
-        img-src 'self' https: data:; 
-        font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; 
-        connect-src 'self' https://region1.google-analytics.com https://www.google-analytics.com https://d.delivery.consentmanager.net https://cdn.consentmanager.net; 
-        frame-src 'self' https://www.google.com https://www.youtube.com; 
-        child-src 'self' https://www.google.com https://www.youtube.com; 
-        media-src 'self' https:; 
-        object-src 'none'; 
-        base-uri 'self'; 
-        form-action 'self'; 
-        upgrade-insecure-requests; 
-        block-all-mixed-content;">
+    default-src 'self'; 
+    script-src 
+        'self' 
+        https://code.jquery.com 
+        https://stackpath.bootstrapcdn.com 
+        https://www.googletagmanager.com 
+        https://cdn.consentmanager.net 
+        https://d.delivery.consentmanager.net 
+        'unsafe-inline' 
+        'unsafe-eval'; 
+    style-src 
+        'self' 
+        'unsafe-inline' 
+        https://cdnjs.cloudflare.com 
+        https://fonts.googleapis.com 
+        https://cdn.consentmanager.net; 
+    img-src 
+        'self' 
+        https: 
+        data:; 
+    font-src 
+        'self' 
+        https://fonts.gstatic.com 
+        https://cdnjs.cloudflare.com; 
+    connect-src 
+        'self' 
+        https://region1.google-analytics.com 
+        https://www.google-analytics.com 
+        https://d.delivery.consentmanager.net 
+        https://cdn.consentmanager.net; 
+    frame-src 
+        'self' 
+        https://www.google.com 
+        https://www.youtube.com; 
+    child-src 
+        'self' 
+        https://www.google.com 
+        https://www.youtube.com; 
+    media-src 
+        'self' 
+        https:; 
+    object-src 
+        'none'; 
+    base-uri 
+        'self'; 
+    form-action 
+        'self'; 
+    frame-ancestors 
+        'self'; 
+    upgrade-insecure-requests; 
+    block-all-mixed-content;">
+
 </head>
 
   
