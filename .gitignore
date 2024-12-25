@@ -39,10 +39,12 @@ CNAME
 *.iml
 
 # Exclure les fichiers générés de styles ou maps
-*.css.map
+# Enlève cette ligne si tu veux inclure les fichiers CSS map.
+# *.css.map
 
 # Images ou fichiers générés temporairement
-img/temp/
+# Si tes images ou fichiers CSS sont ici, enlève cette ligne.
+# img/temp/
 
 # Ignorer les fichiers temporaires de débogage
 debug.log
