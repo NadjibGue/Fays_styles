@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://barbier.faysstyle.ct.ws/sitemap.xml
+
+# Disallow certaines parties du site (exemple, si nécessaire)
+# Disallow: /admin/
+# Disallow: /private/
