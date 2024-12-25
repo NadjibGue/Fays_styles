@@ -36,7 +36,7 @@ debug.log
 .sitemap-backup.xml
 
 # Images temporaires (si elles ne sont pas utilisées pour le site)
-img/temp/
+!img/temp/
 
 # Ne pas cacher les fichiers CSS
 !css/
