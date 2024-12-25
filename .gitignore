@@ -1,27 +1,19 @@
-# Ignorer les fichiers générés par Jekyll
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-
-# Fichiers générés automatiquement
+# Ignorer les fichiers temporaires générés automatiquement
 *.log
 *.tmp
 *.bak
 *.swp
 
-# Cacher les fichiers système
+# Cacher les fichiers système spécifiques à ton environnement
 .DS_Store
 Thumbs.db
 
-# Librairies et dépendances externes
-/vendor/
-node_modules/
+# Cache et métadonnées d'outils de développement
+.idea/
+.vscode/
+*.iml
 
-# Fichiers Ruby/Bundler (si applicable)
-Gemfile.lock
-
-# Cacher les fichiers sensibles ou locaux
+# Ignorer les fichiers sensibles ou de configuration locale
 .env
 *.env.local
 *.key
@@ -29,29 +21,31 @@ Gemfile.lock
 *.crt
 config/*.local
 
-# Fichiers spécifiques à l'environnement de déploiement GitHub Pages
-.github/
-CNAME
+# Cacher les dépendances externes et fichiers compilés inutiles pour le projet final
+node_modules/
+vendor/
 
-# Cache et métadonnées IDE
-.idea/
-.vscode/
-*.iml
-
-# Exclure les fichiers générés de styles ou maps
-# Enlève cette ligne si tu veux inclure les fichiers CSS map.
-# *.css.map
-
-# Images ou fichiers générés temporairement
-# Si tes images ou fichiers CSS sont ici, enlève cette ligne.
-# img/temp/
-
-# Ignorer les fichiers temporaires de débogage
+# Ne pas inclure les fichiers spécifiques au débogage
 debug.log
 
-# Fichiers de sauvegarde
+# Cacher les fichiers de sauvegarde
 *.bak
 *.tmp
 
-# Exclure les fichiers ou dossiers inutiles au projet
+# Fichiers générés temporairement
 .sitemap-backup.xml
+
+# Images temporaires (si elles ne sont pas utilisées pour le site)
+img/temp/
+
+# Ne pas cacher les fichiers CSS
+!css/
+!css/style.css
+
+# Ne pas cacher les fichiers HTML
+!index.html
+!portfolio.html
+
+# Ne pas cacher le fichier sitemap ou CNAME
+!sitemap.xml
+!CNAME
