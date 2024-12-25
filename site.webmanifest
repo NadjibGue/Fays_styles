@@ -1,54 +1,21 @@
 {
-  "name": "Fays-Style | Coiffeur et Barbier à Cugnaux",
-  "short_name": "Fays-Style",
-  "description": "Fays-Style, salon de coiffure homme et barbier à Cugnaux. Coupes modernes, rasages traditionnels, dégradés et tailles de barbe à partir de 10 euros.",
-  "start_url": "/",
+  "name": "Fays-Style",
+  "short_name": "FaysStyle",
+  "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#000000",
+  "background_color": "#ffffff",
   "theme_color": "#000000",
-  "orientation": "portrait",
+  "description": "Fays-Style, votre salon de coiffure et barbier à Cugnaux.",
   "icons": [
     {
-      "src": "/img/FaysStyle.png",
+      "src": "img/FaysStyle.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/img/FaysStyle-512.png",
+      "src": "img/FaysStyle.png",
       "sizes": "512x512",
       "type": "image/png"
-    }
-  ],
-  "scope": "/",
-  "lang": "fr",
-  "categories": ["lifestyle", "beauty", "hair-salon"],
-  "screenshots": [
-    {
-      "src": "/img/screenshot-home.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "label": "Page d'accueil"
-    },
-    {
-      "src": "/img/screenshot-services.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "label": "Services proposés"
-    }
-  ],
-  "shortcuts": [
-    {
-      "name": "Prendre rendez-vous",
-      "short_name": "Rendez-vous",
-      "description": "Prenez rendez-vous en ligne avec Fays-Style.",
-      "url": "/#booking",
-      "icons": [
-        {
-          "src": "/img/shortcut-icon.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
     }
   ]
 }
