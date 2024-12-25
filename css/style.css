@@ -293,19 +293,20 @@ a:focus {
 .hero .hero-text .btn {
     padding: 0.5em 1em;
     outline: none;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #c6c6c8;
-    background-color: hsla(54, 82%, 62%, 0.272);
-    border: 2px solid #c6c6c8;
+    color: #000000;
+    background-color: #D5B981;
+    border: 2px solid #cbe4b2;
     border-radius: 0;
     transition: .3s;
+    
 }
 
 .hero .hero-text .btn:hover {
     color: #D5B981;
-    background: #1d2434;
+    background: #676b75a8;
     animation: jelly 0.5s;
 }
 
